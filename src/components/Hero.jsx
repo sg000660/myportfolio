@@ -12,7 +12,7 @@ export default function Hero() {
           <div className="relative w-64 h-64 mb-6">
   <div className="absolute inset-0 rounded-full bg-teal-400 blur-2xl opacity-0"></div>
   <img
-    src="public/Assets/profile.jpg"
+    src="Assets/profile.jpg"
     className="w-64 h-64 rounded-full border-4 border-teal-400 shadow-xl object-cover"
   />
 </div>
@@ -38,7 +38,7 @@ export default function Hero() {
           {/* Buttons */}
           <div className="flex gap-6 mt-8">
             <a
-              href="public/Assets/Resume.pdf"
+              href="Assets/Resume.pdf"
               download
               className="px-6 py-3 bg-teal-500 hover:bg-teal-600 rounded-full text-white font-medium shadow-lg transition"
             >
