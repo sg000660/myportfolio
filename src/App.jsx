@@ -8,10 +8,11 @@ import Projects from './components/Projects'
 import Skills from './components/Skills'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import CometCursor from './components/CometCursor'
 function App() {
 
   return (
-    <div><Navbar/><Hero/><About/><Education/><Experience/><Projects/><Skills/><Contact/><Footer/></div>
+    <div> <CometCursor /><Navbar/><Hero/><About/><Education/><Experience/><Projects/><Skills/><Contact/><Footer/></div>
   )
 }
 
